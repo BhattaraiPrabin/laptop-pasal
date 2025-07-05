@@ -11,7 +11,10 @@ export const metadata = {
   title: "Laptop Pasal - Buy, Sell, and Find Laptops in Nepal",
   description:
     "Nepal's premier destination for buying new laptops, selling used laptops, and finding the perfect accessories at competitive prices.",
-    generator: 'v0.dev'
+    generator: 'v0.dev',
+    robots: {
+      index: true,
+      follow: true,}
 }
 
 export default function RootLayout({
